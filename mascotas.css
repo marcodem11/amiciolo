@@ -1,0 +1,275 @@
+body{
+    max-width: 400px;
+    max-height: 750px;
+    
+}
+
+header{
+    width: 400px;
+    height: 150px;
+    background-color: #d8c1a4;
+    position: fixed;
+}
+
+.dog-name{
+    display: flex;
+    margin-left: 15px;
+    gap: 90px
+}
+
+.dog-spece{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.perro-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.perro-button{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#523919, #d4bc8c);
+}
+
+.perro-button:hover{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#d4bc8c, #523919);
+}
+
+.perro-button2{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#d4bc8c, #523919);
+}
+
+.perro-button2:hover{
+    width: 180px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#523919, #d4bc8c);
+}
+
+.perro-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.button-container{
+    width: 370px;
+    height: 90px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#b31414, #ca4e4e);
+}
+
+.button-container:hover{
+    width: 380px;
+    height: 100px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#b31414, #ca4e4e);
+}
+
+.button-container3{
+    width: 370px;
+    height: 90px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#523919, #d4bc8c);
+}
+
+.button-container3:hover{
+    width: 380px;
+    height: 100px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#523919, #d4bc8c);
+}
+
+.button-container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.perro-text1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.perro-text2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.perro-text3{
+    color: #523919;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.logo-block{
+    display: flex;
+    justify-content: center;
+}
+
+.foto-logo{
+    width: 90px;
+    margin-bottom: 10px;
+}
+
+.logo-name{
+    font-size: 30px;
+    font-family: cursive;
+    color: burlywood;
+}
+
+main{
+    width: 400px;
+    height: 520px;
+    background-color: #d8c1a4;
+    position: fixed;
+    margin-top: 150px;
+}
+
+.info-point{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.info-point1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.info-point1:hover{
+    color: #523919;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
+
+.dog-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dog-foto{
+    width: 115px;
+    height: 135px;
+    border-radius: 20px;
+}
+
+.foto-container{
+    width: 125px;
+    height: 145px;
+    border: 5px solid #523919;
+    border-radius: 25px;
+}
+
+footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d8c1a4;
+    position: fixed;
+    margin-top: 650px;
+    border-top: 1px solid #523919;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.nav-block{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+.nav-block:hover{
+    color: #523919;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: -1px 0 #523919, 0 1px #523919, 1px 0 #523919, 0 -1px #523919;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: #d4bc8c;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+  
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 14%;
+    padding: 8px;
+    background: #523919;
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
